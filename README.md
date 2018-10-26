@@ -1,6 +1,6 @@
-# Tree Shake Demos
+# Tree Shaking Demos
 
-This repo demos tree-shaking of the following bundlers:
+This repository demos various scenarios of tree-shaking across the following bundlers:
 
 - Webpack
 - Parcel
@@ -8,13 +8,15 @@ This repo demos tree-shaking of the following bundlers:
 
 #### Findings
 
-- Rollup and Webpack can both tree-shake selective or namesapced imports
+- Rollup and Webpack can both tree-shake selective or namespaced imports
+- Parcel tree-shaking did not appear to work (?)
 
 #### TODO
 
 - More advanced demos may reveal caveats/limits of import style. For example some discussions suggest that Rollup will apparently be unable to tree shake namespaced imports if the namespace object is reflected upon ([ref](https://gist.github.com/Rich-Harris/24a8ddd3947150aa8c15a9367faf1d62)).
+- Its unlikely that Parcel tree-shaking, even if experiment, does not work on such simple demos. Is it configured incorrectly?
 
-#### Quickstart
+#### Quick Start
 
 Demo results are committed to this repository in `./build` or you can run demos for yourself:
 
