@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "moduleResolution": "node",
+    "noImplicitReturns": true,
+    "esModuleInterop": true,
+    "target": "esnext",
+    "module": "ES2015",
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "importHelpers": true,
+    "allowSyntheticDefaultImports": true
+  }
+}

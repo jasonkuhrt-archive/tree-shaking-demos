@@ -1,0 +1,35 @@
+parcelRequire = (function(e) {
+  var r = "function" == typeof parcelRequire && parcelRequire,
+    n = "function" == typeof require && require,
+    i = {}
+  function u(e, u) {
+    if (e in i) return i[e]
+    var t = "function" == typeof parcelRequire && parcelRequire
+    if (!u && t) return t(e, !0)
+    if (r) return r(e, !0)
+    if (n && "string" == typeof e) return n(e)
+    var o = new Error("Cannot find module '" + e + "'")
+    throw ((o.code = "MODULE_NOT_FOUND"), o)
+  }
+  return (
+    (u.register = function(e, r) {
+      i[e] = r
+    }),
+    (i = e(u)),
+    (u.modules = i),
+    u
+  )
+})(function(require) {
+  var a = "bib",
+    d = "bub"
+  d, a
+  var b = "ant",
+    e = function() {},
+    f = a
+  var g = "cat",
+    c = "cap"
+  c, g
+  f, e, b
+  console.log(b), console.log(c)
+  return { rEkM: {} }
+})
