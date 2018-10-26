@@ -36,3 +36,4 @@ yarn build
 - https://stackoverflow.com/questions/42051588/wildcard-or-asterisk-vs-named-or-selective-import-es6-javascript
 - https://medium.com/webpack/better-tree-shaking-with-deep-scope-analysis-a0b788c0ce77
 - https://gist.github.com/Rich-Harris/24a8ddd3947150aa8c15a9367faf1d62
+- https://github.com/airbnb/javascript/issues/1487
